@@ -1,5 +1,6 @@
 .Portada{position: relative;background-image: url('Fondo.jpg');width: 1662px; height: 850px;top: -7px;}
 .Titulo1{position: absolute;top:160px;left: 200px;height: 65%;width: auto;}
+.Boton1{position: absolute;color: white;text-decoration: none;font-size: 40px;top: 4px;right: 30px;background: linear-gradient(rgba(10, 224, 28, 0.322), rgba(14, 241, 6, 0.219));padding: 5px;}
 /*Inicio de la infromación general de la serie*/
 .Informacion{background-color: white;position: relative; width: 1662px;height: 920px;font-family: Arial, Helvetica, sans-serif;font-size: 17px;}
 .Texto1{justify-content: center;text-align: justify;padding: 15px;display: block;top:2px;}
@@ -12,3 +13,8 @@
 .Folder{position: absolute;top:20px;width: auto;height: 95%;right: 30px;}
 .Scully{position: absolute;top:120px;width: auto;height: 75%;left: 30px;}
 .Efecto{box-sizing: content-box;width:470px;position: absolute;text-align: justify;right: 118px;top: 140px;font-family: Arial, Helvetica, sans-serif;}
+/*----------------------- Inicio del contenido de CONTACTO-----------------------*/
+.Intro{position: relative;background-image: url("Fondo3.jpg");height: 840px;margin: 0px;margin-top: -5px;}
+.Logo{position: absolute;z-index: 2;left: 40px;width: auto;height:19%;top: 10px;}
+.Intro h1{position: absolute;background-color: white;width: 1300px;height: 110px;text-align: center;top: 2px;left: 110px;bottom:0px;z-index: 1;border: solid black;border-radius: 50px;font-size: 38px;align-content: center;}
+.Parte1{position:absolute;color: white;top: 200px;font-size: 25px;font-family: Arial, Helvetica, sans-serif;box-sizing: border-box;max-width: 1300px;height: 100px;left: 100px;background-color: rgba(0, 0, 0, 0.6);display:flex;align-items: center;justify-content: center;text-align: justify;padding: 25px;}
