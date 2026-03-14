@@ -1,6 +1,12 @@
 .Portada{position: relative;background-image: url('Fondo.jpg');width: 1662px; height: 850px;top: -7px;}
 .Titulo1{position: absolute;top:160px;left: 200px;height: 65%;width: auto;}
-.Boton1{position: absolute;color: white;text-decoration: none;font-size: 40px;top: 4px;right: 30px;background: linear-gradient(rgba(10, 224, 28, 0.322), rgba(14, 241, 6, 0.219));padding: 5px;}
+.posicion{position: absolute;top: 4px;right: 3px;}
+.Boton1, .Boton2{color: white;text-decoration: none;font-size: 36px;text-decoration: none;background: linear-gradient(rgba(10, 224, 28, 0.322), rgba(14, 241, 6, 0.219));padding: 5px;}
+/*-- A continuación se hará el menú web interactivo --*/
+.Menu{position: relative;}
+.episodios{position: absolute;display: none;flex-direction: column;background-color: black;}
+.Diseño1{position: relative; color: white;text-decoration: none;font-family: Arial, Helvetica, sans-serif;font-size: 20px;border: solid white 2px;border-radius: 10px;padding: 5px;margin: 2px;}
+.Menu:hover .episodios{display: flex;}
 /*Inicio de la infromación general de la serie*/
 .Informacion{background-color: white;position: relative; width: 1662px;height: 920px;font-family: Arial, Helvetica, sans-serif;font-size: 17px;}
 .Texto1{justify-content: center;text-align: justify;padding: 15px;display: block;top:2px;}
