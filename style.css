@@ -30,3 +30,8 @@
 .Recuadro input{height: 100%;width: 100%;opacity: 0;cursor:pointer;}
 .Boton{position: absolute;top: 722px;right: 60px;width: 200px;height: 100px;background-color: rgb(0, 0, 0);color: white;font-size: 35px;text-align: center;justify-content: center;}
 button:hover{background-color: white;color: black;cursor: pointer;}
+/*----------------------- Inicio del Episodio de CLYDE ------------------------*/
+.Clyde{position: relative;background-image: url(FondoClyde.jpg);width: 1500px;height: 900px;background-size: cover;}
+.Font{position:absolute;color: white; top: 24px;left: 36px;}
+.InformacionC{position: absolute;top: 40px;right: 22px;color: white;font-family: Arial, Helvetica, sans-serif;font-size: 18px;width: 700px;height: 620px;background-color: rgba(0, 0, 0, 0.8);box-sizing: border-box;padding: 24px;display: flex;align-items: center;text-align: justify;}
+.Imagenes{position: absolute;top: 680px;left: 80px;display: flex;flex-wrap: nowrap;gap: 195px;}
