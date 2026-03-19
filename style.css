@@ -1,5 +1,6 @@
-.Portada{position: relative;background-image: url('Fondo.jpg');width: 1662px; height: 850px;top: -7px;}
-.Titulo1{position: absolute;top:160px;left: 200px;height: 65%;width: auto;}
+/*Inicio del Código desde portada de index */
+.Portada{position: relative;background-image: url('Fondo.jpg');width: 100%; height: 850px;top: -7px;}
+.Titulo1{position: absolute;top:160px;left: 120px;height: 65%;width: auto;}
 .posicion{position: absolute;top: 4px;right: 3px;}
 .Boton1, .Boton2{color: white;text-decoration: none;font-size: 36px;text-decoration: none;background: linear-gradient(rgba(10, 224, 28, 0.322), rgba(14, 241, 6, 0.219));padding: 5px;}
 /*-- A continuación se hará el menú web interactivo --*/
@@ -40,3 +41,36 @@ button:hover{background-color: white;color: black;cursor: pointer;}
 .Titulo{position: absolute;color: white;z-index: 2;font-size: 3rem;top: -20px;left: 20px;}
 .TextoB1{position: absolute;background-color: rgb(0, 0, 0, 0.7);color: white;font-family: Arial, Helvetica, sans-serif;width: 680px;height: 500px;border-radius: 20px;right: 20px;display: flex;text-align: justify;align-items: center;padding: 18px;font-size: 1.2rem;top: 20px;}
 .ImagenBB{position: absolute;display: flex;flex-wrap: nowrap;gap: 110px;left: 60px;top: 610px;}
+/*------------> Inicio del Diseño Responsivo <------------ */
+@media screen and (max-width: 768px){
+.Portada{height:740px;width: 100%;}
+.Titulo1{max-height: 40%;max-width: 90%;left: 40%;transform: translateX(-40%);top: 230px;}
+.Boton1, .Boton2{font-size: 28px;}
+/*Inicio de Informacion general de Index*/
+.Informacion{font-size: 12px;width: 100%;padding: 2px;margin:0px;left: -2px;}
+.Texto1{padding: 5px;}
+.Texto2{width: 42%;margin-left: 8px;}
+.Foto1{left: 45%;height: 52%;width: 54%;top: 28%;}
+.Texto3{margin-left: 45%;width:54%;top: 100%;}
+/*Inicio EFECTO SCULLY*/
+.EfectoInfo{width: 100%;height:1350px;}
+.TituEfec{font-size: 40px;width: 280px;height: 50px;}
+.Scully{width: 80%;height: 40%;top: 6%;left: 10%;}
+.Folder{height: 54%;width: 99%;right: 2px;top: 45%;}
+.Efecto{font-size: 12px;top:51%; width:47%;right: 9%;}
+/*Inicio de la parte Contacto*/
+.Intro{width: 100%;}
+.Logo{width: auto;height: 12%;left: 10px;}
+.Intro h1{width: 82%;height: 8%;font-size: 22px;left: 78px;align-items: center;padding: 8px;}
+.Parte1{left: 30px;width: 90%;height: 11%;top: 20%;font-size: 18px;padding: 10px;}
+#Historia{width: 95%;left: 2%;top: 35%;}
+.Parte2{left: 10px;top: 85%;width: 22%;height: 21%;font-size: 18px;padding: 10px;}
+.Recuadro{left: 27%;width: 35%;top: 88%;}
+.Boton{right: 2%;top: 89%;width: 30%;}
+/*Inicio de la parte de Clyde*/
+.Clyde{width: 100%;}
+.Font{font-size: 26px;left: 3%;top: 2%;}
+.InformacionC{font-size: 12px;width: 82%;height: 54%;padding: 10px;top: 14%;left: 9%;}
+.Imagenes{top: 75%;display:flex;flex-wrap: wrap;justify-content: center;top: 75%;gap: 40px;left: 5%;}
+.Imagenes img{width: 200px;}
+}
