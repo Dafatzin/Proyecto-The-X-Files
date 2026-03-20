@@ -91,12 +91,13 @@ button:hover{background-color: white;color: black;cursor: pointer;}
 .ImagCSM{top: 22%;gap: 60px;justify-content: center;position: absolute;}
 .ImagCSM Img{width: 35%;}
 }
+/*-------------- Inicio de la otra parte de responsivo, con la otra resolución --------------*/
 @media screen and (min-width:769px)and (max-width: 1024px) {
 
 /*----Inicio de la sección Contacto----*/
 .Intro{width: 100%;}    
 .Logo{width: auto;height: 15%;left: 2%;}
-.Intro h1{width: 87%;}
+.Intro h1{width: 87%;font-size: 30px;}
 /*----Inicio del episodio de Cigarette Smooking Man----*/
 .InfoCSM{width: 100%;height: 1000px;background-size: cover;}
 .InformacionCSM{font-size: 14px;width: 85%;top: 7%;left: 9%;}
@@ -104,4 +105,6 @@ button:hover{background-color: white;color: black;cursor: pointer;}
 .ImagCSM Img{width: 30%;}  
 .Parte1{width: 87%;left: 6%;}
 #Historia{width: 87%;}
+.Recuadro{width: 200px;left:38%;}
+.Parte2{left: 5%;width: 24%;font-size: 16px;padding: 12px;}
 }
