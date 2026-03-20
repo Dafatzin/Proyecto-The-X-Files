@@ -45,7 +45,7 @@ button:hover{background-color: white;color: black;cursor: pointer;}
 .InfoCSM{background-image: url(FondoCSM.jpg);background-size: cover;position: relative;width: 100%;height: 900px;z-index: 1;}
 .TituloCSM{position: absolute;color: white;z-index: 2;font-size: 34px;left: 20px;top: 20px;}
 .InformacionCSM{position:absolute;background-color: rgba(0, 0, 0, 0.7);color: white;padding: 8px;text-align: justify;align-items: center;justify-content: center;width: 600px;right: 20px;top: 20px;}
-.ImagCSM{display: flex;flex-wrap: wrap;margin-top: 49%;position: absolute;left: 4%;column-gap: 90px;}
+.ImagCSM{display: flex;flex-wrap: wrap;margin-top: 600px;position: absolute;left: 4%;column-gap: 190px;}
 .ImagCSM img{width: 20%;height: auto;}
 /*------------> Inicio del Diseño Responsivo <------------ */
 @media screen and (max-width: 768px){
@@ -89,7 +89,7 @@ button:hover{background-color: white;color: black;cursor: pointer;}
 .InfoCSM{width: 100%;height: 910px;background-size: auto;}
 .InformacionCSM{font-family: Arial, Helvetica, sans-serif;font-size: 12px;left: 2%;width: 94%;top: 6%;}
 .TituloCSM{font-size: 30px;}
-.ImagCSM{top: 22%;gap: 60px;justify-content: center;position: absolute;}
+.ImagCSM{top: -100px;column-gap: 60px;justify-content: center;position: absolute;}
 .ImagCSM Img{width: 35%;}
 }
 /*-------------- Inicio de la otra parte de responsivo, con la otra resolución --------------*/
@@ -105,7 +105,7 @@ button:hover{background-color: white;color: black;cursor: pointer;}
 /*----Inicio del episodio de Cigarette Smooking Man----*/
 .InfoCSM{width: 100%;height: 1000px;background-size: cover;}
 .InformacionCSM{font-size: 14px;width: 85%;top: 7%;left: 9%;}
-.ImagCSM{gap: 64px;justify-content: center;top:  15%;position: absolute;}
+.ImagCSM{column-gap: 64px;justify-content: center;top:  -100px;position: absolute;}
 .ImagCSM Img{width: 30%;}  
 .Parte1{width: 87%;left: 6%;}
 }
