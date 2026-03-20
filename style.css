@@ -100,7 +100,7 @@ button:hover{background-color: white;color: black;cursor: pointer;}
 .Intro h1{width: 87%;font-size: 30px;}
 #Historia{width: 87%;}
 .Recuadro{width: 200px;left:38%;}
-.Parte2{left: 5%;width: 24%;font-size: 16px;padding: 12px;}
+.Parte2{left: 5%;width: 24%;font-size: 16px;padding: 11px;}
 /*----Inicio del episodio de Cigarette Smooking Man----*/
 .InfoCSM{width: 100%;height: 1000px;background-size: cover;}
 .InformacionCSM{font-size: 14px;width: 85%;top: 7%;left: 9%;}
