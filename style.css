@@ -32,15 +32,16 @@
 .Boton{position: absolute;top: 722px;right: 60px;width: 200px;height: 100px;background-color: rgb(0, 0, 0);color: white;font-size: 35px;text-align: center;justify-content: center;}
 button:hover{background-color: white;color: black;cursor: pointer;}
 /*----------------------- Inicio del Episodio de CLYDE ------------------------*/
-.Clyde{position: relative;background-image: url(FondoClyde.jpg);width: 1500px;height: 900px;background-size: cover;}
+.Clyde{position: relative;background-image: url(FondoClyde.jpg);width: 100%;height: 900px;background-size: cover;}
 .Font{position:absolute;color: white; top: 24px;left: 36px;}
-.InformacionC{position: absolute;top: 40px;right: 22px;color: white;font-family: Arial, Helvetica, sans-serif;font-size: 18px;width: 700px;height: 620px;background-color: rgba(0, 0, 0, 0.8);box-sizing: border-box;padding: 24px;display: flex;align-items: center;text-align: justify;}
-.Imagenes{position: absolute;top: 680px;left: 80px;display: flex;flex-wrap: nowrap;gap: 195px;}
+.InformacionC{position: absolute;top: 40px;right: 22px;color: white;font-family: Arial, Helvetica, sans-serif;font-size: 16px;width: 52%;height: auto;background-color: rgba(0, 0, 0, 0.8);box-sizing: border-box;padding: 16px;display: flex;align-items: center;text-align: justify;}
+.Imagenes{position: absolute;top: 680px;left: 4%;display: flex;flex-wrap: nowrap;gap: 120px;}
 /*----------------------- Inicio del Episodio de Bad Blood --------------------*/
-.InformacionB{background-image: url(FondoBB.jpg);background-size: cover;position: relative;width: 1492px;height: 890px;z-index: 1;margin: 0px;}
+.InformacionB{background-image: url(FondoBB.jpg);background-size: cover;position: relative;width: 100%;height: 890px;z-index: 1;margin: 0px;}
 .Titulo{position: absolute;color: white;z-index: 2;font-size: 3rem;top: -20px;left: 20px;}
 .TextoB1{position: absolute;background-color: rgb(0, 0, 0, 0.8);color: white;font-family: Arial, Helvetica, sans-serif;width: 680px;height: 500px;border-radius: 20px;right: 20px;display: flex;text-align: justify;align-items: center;padding: 18px;font-size: 1.2rem;top: 20px;}
-.ImagenBB{position: absolute;display: flex;flex-wrap: nowrap;gap: 110px;left: 60px;top: 610px;}
+.ImagenBB{position: absolute;display: flex;flex-wrap: nowrap;gap: 100px;left: 6%;top: 610px;}
+.ImagenBB Img{width: 30%;}
 /*------Inicio del episodio de Cigarette Smooking Man----*/
 .InfoCSM{background-image: url(FondoCSM.jpg);background-size: cover;position: relative;width: 100%;height: 900px;z-index: 1;}
 .TituloCSM{position: absolute;color: white;z-index: 2;font-size: 34px;left: 20px;top: 20px;}
@@ -76,25 +77,34 @@ button:hover{background-color: white;color: black;cursor: pointer;}
 /*Inicio de la parte de Clyde*/
 .Clyde{width: 100%;}
 .Font{font-size: 26px;left: 3%;top: 2%;}
-.InformacionC{font-size: 12px;width: 82%;height: 54%;padding: 10px;top: 14%;left: 9%;}
-.Imagenes{top: 75%;display:flex;flex-wrap: wrap;justify-content: center;top: 75%;gap: 40px;left: 5%;}
-.Imagenes img{width: 200px;}
+.InformacionC{font-size: 12px;width: 88%;height: auto;padding: 10px;top: 14%;left: 5%;text-align: justify;}
+.Imagenes{top: 1000px;display:flex;flex-wrap: wrap;justify-content: center;top: 75%;column-gap: 40px;left: 5%;row-gap: 20px;}
+.Imagenes img{width: 30%;}
 /*Inicio del episodio en Bad Blood*/
-.Titulo{left: 30%;}
+.Titulo{left: 8%;}
 .InformacionB{width: 100%;}
-.TextoB1{font-size: 12px;width: 70%;height: 40%;top: 10%;left: 12%;}
+.TextoB1{font-size: 12px;width: 80%;height: auto;top: 10%;left: 8%;padding: 10px;}
 .ImagenBB{top: 58%;flex-wrap: wrap;gap: 20px;justify-content: center;left: 1%;}
-.ImagenBB Img{width: 46%;}
+.ImagenBB Img{width: 35%;}
 /*------Inicio del episodio de Cigarette Smooking Man----*/
 .InfoCSM{width: 100%;height: 910px;background-size: auto;}
 .InformacionCSM{font-family: Arial, Helvetica, sans-serif;font-size: 12px;left: 2%;width: 94%;top: 6%;}
 .TituloCSM{font-size: 30px;}
-.ImagCSM{top: -100px;column-gap: 60px;justify-content: center;position: absolute;}
+.ImagCSM{top: -90px;column-gap: 60px;justify-content: center;position: absolute;}
 .ImagCSM Img{width: 35%;}
 }
 /*-------------- Inicio de la otra parte de responsivo, con la otra resolución --------------*/
 @media screen and (min-width:769px)and (max-width: 1024px) {
-
+/*----Inicio de Bad Blood ----*/
+.Informacion{width: 100%;}
+.TextoB1{font-size: 16px;width: 79%;height: auto;top: 9%;left: 9%;padding: 12px;}
+.ImagenBB{flex-wrap: wrap;column-gap: 80px;row-gap: 20px;top: 58%;left: 12%;}
+.ImagenBB Img{width: 35%;}    
+/*----Inicio de la sección de Clyde----*/
+.Clyde{width: 100%;} 
+.InformacionC{width:85%;font-size: 14px;height: 58%;top: 18%;left: 10%;}
+.Imagenes{flex-wrap: wrap;column-gap:50px;row-gap: 20px;top: 520px;}
+.Imagenes Img{width: 28%;}
 /*----Inicio de la sección Contacto----*/
 .Intro{width: 100%;}    
 .Logo{width: auto;height: 15%;left: 2%;}
