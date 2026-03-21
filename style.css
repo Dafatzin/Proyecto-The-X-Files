@@ -35,13 +35,14 @@ button:hover{background-color: white;color: black;cursor: pointer;}
 .Clyde{position: relative;background-image: url(FondoClyde.jpg);width: 100%;height: 900px;background-size: cover;}
 .Font{position:absolute;color: white; top: 24px;left: 36px;}
 .InformacionC{position: absolute;top: 40px;right: 22px;color: white;font-family: Arial, Helvetica, sans-serif;font-size: 16px;width: 52%;height: auto;background-color: rgba(0, 0, 0, 0.8);box-sizing: border-box;padding: 16px;display: flex;align-items: center;text-align: justify;}
-.Imagenes{position: absolute;top: 680px;left: 4%;display: flex;flex-wrap: nowrap;gap: 120px;}
+.Imagenes{position: absolute;top: 650px;left: 6%;display: flex;flex-wrap: wrap;column-gap: 120px;}
+.Imagenes Img{width: 24%;height: auto;}
 /*----------------------- Inicio del Episodio de Bad Blood --------------------*/
 .InformacionB{background-image: url(FondoBB.jpg);background-size: cover;position: relative;width: 100%;height: 890px;z-index: 1;margin: 0px;}
 .Titulo{position: absolute;color: white;z-index: 2;font-size: 3rem;top: -20px;left: 20px;}
-.TextoB1{position: absolute;background-color: rgb(0, 0, 0, 0.8);color: white;font-family: Arial, Helvetica, sans-serif;width: 680px;height: 500px;border-radius: 20px;right: 20px;display: flex;text-align: justify;align-items: center;padding: 18px;font-size: 1.2rem;top: 20px;}
-.ImagenBB{position: absolute;display: flex;flex-wrap: nowrap;gap: 100px;left: 6%;top: 610px;}
-.ImagenBB Img{width: 30%;}
+.TextoB1{position: absolute;background-color: rgb(0, 0, 0, 0.8);color: white;font-family: Arial, Helvetica, sans-serif;width: 60%;height: auto;border-radius: 20px;right: 20px;display: flex;text-align: justify;align-items: center;padding: 16px;font-size: 1.2rem;top: 20px;}
+.ImagenBB{position: absolute;display: flex;flex-wrap: wrap;column-gap: 60px;left: 3%;top: 610px;}
+.ImagenBB Img{width: 29%;}
 /*------Inicio del episodio de Cigarette Smooking Man----*/
 .InfoCSM{background-image: url(FondoCSM.jpg);background-size: cover;position: relative;width: 100%;height: 900px;z-index: 1;}
 .TituloCSM{position: absolute;color: white;z-index: 2;font-size: 34px;left: 20px;top: 20px;}
@@ -78,7 +79,7 @@ button:hover{background-color: white;color: black;cursor: pointer;}
 .Clyde{width: 100%;}
 .Font{font-size: 26px;left: 3%;top: 2%;}
 .InformacionC{font-size: 12px;width: 88%;height: auto;padding: 10px;top: 14%;left: 5%;text-align: justify;}
-.Imagenes{top: 1000px;display:flex;flex-wrap: wrap;justify-content: center;top: 75%;column-gap: 40px;left: 5%;row-gap: 20px;}
+.Imagenes{display:flex;flex-wrap: wrap;justify-content: center;top: 79%;column-gap: 40px;left: 5%;row-gap: 20px;}
 .Imagenes img{width: 30%;}
 /*Inicio del episodio en Bad Blood*/
 .Titulo{left: 8%;}
@@ -96,7 +97,7 @@ button:hover{background-color: white;color: black;cursor: pointer;}
 /*-------------- Inicio de la otra parte de responsivo, con la otra resolución --------------*/
 @media screen and (min-width:769px)and (max-width: 1024px) {
 /*----Inicio de Bad Blood ----*/
-.Informacion{width: 100%;}
+.InformacionB{width: 100%;}
 .TextoB1{font-size: 16px;width: 79%;height: auto;top: 9%;left: 9%;padding: 12px;}
 .ImagenBB{flex-wrap: wrap;column-gap: 80px;row-gap: 20px;top: 58%;left: 12%;}
 .ImagenBB Img{width: 35%;}    
