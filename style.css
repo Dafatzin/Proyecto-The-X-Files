@@ -26,7 +26,7 @@
 .Intro h1{position: absolute;background-color: white;width: 89%;height: 110px;text-align: center;top: 2px;left: 110px;bottom:0px;z-index: 1;border: solid black;border-radius: 50px;font-size: 39px;align-content: center;padding: 5px;}
 .Parte1{position:absolute;color: white;top: 200px;font-size: 23px;font-family: Arial, Helvetica, sans-serif;box-sizing: border-box;max-width: 87%;height: 100px;left: 7%;background-color: rgba(0, 0, 0, 0.6);display:flex;align-items: center;justify-content: center;text-align: justify;padding: 25px;}
 #Historia{position:absolute;color: rgb(0, 0, 0);top: 320px;width: 92%;height:350px;left: 55px;}
-.Parte2{position:absolute;color: white;top: 93%;font-size: 22px;font-family: Arial, Helvetica, sans-serif;box-sizing: border-box;max-width: 24%;height: 16%;left: 5%;background-color: rgba(0, 0, 0, 0.6);display:flex;align-items: center;justify-content: center;text-align: justify;padding: 18px;}
+.Parte2{position:absolute;color: white;top: 715px;font-size: 22px;font-family: Arial, Helvetica, sans-serif;box-sizing: border-box;max-width: 24%;height: 16%;left: 5%;background-color: rgba(0, 0, 0, 0.6);display:flex;align-items: center;justify-content: center;text-align: justify;padding: 18px;}
 .Recuadro{position: absolute;top: 720px;right: 400px;width: 30%;height: 100px;border: solid rgb(0, 0, 0);background-color: rgba(255, 255, 255);text-align: center;display: flex;align-items: center;}
 .Recuadro input{height: 100%;width: 100%;opacity: 0;cursor:pointer;}
 .Boton{position: absolute;top: 722px;right: 60px;width: 200px;height: 100px;background-color: rgb(0, 0, 0);color: white;font-size: 35px;text-align: center;justify-content: center;}
@@ -72,9 +72,9 @@ button:hover{background-color: white;color: black;cursor: pointer;}
 .Intro h1{width: 82%;height: 8%;font-size: 22px;left: 78px;align-items: center;padding: 8px;}
 .Parte1{left: 30px;width: 90%;height: 11%;top: 20%;font-size: 18px;padding: 10px;}
 #Historia{width: 95%;left: 2%;top: 35%;}
-.Parte2{left: 10px;top: 85%;width: 22%;height: 21%;font-size: 18px;padding: 10px;}
-.Recuadro{left: 27%;width: 35%;top: 88%;}
-.Boton{right: 2%;top: 89%;width: 30%;}
+.Parte2{left: 10px;top: 650px;width: 22%;height: 21%;font-size: 18px;padding: 10px;}
+.Recuadro{left: 27%;width: 35%;top: 670px;}
+.Boton{right: 2%;top: 670px;width: 30%;}
 /*Inicio de la parte de Clyde*/
 .Clyde{width: 100%;}
 .Font{font-size: 26px;left: 3%;top: 2%;}
