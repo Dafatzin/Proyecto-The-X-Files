@@ -1,0 +1,122 @@
+/*Inicio del Código desde portada de index */
+.Portada{position: relative;background-image: url('Fondo.jpg');width: 100%; height: 850px;top: -7px;}
+.Titulo1{position: absolute;top:160px;left: 8%;height: 65%;width: auto;}
+.posicion{position: absolute;top: 4px;right: 3px;}
+.Boton1, .Boton2{color: white;text-decoration: none;font-size: 36px;text-decoration: none;background: linear-gradient(rgba(10, 224, 28, 0.322), rgba(14, 241, 6, 0.219));padding: 5px;}
+/*-- A continuación se hará el menú web interactivo --*/
+.Menu{position: relative;}
+.episodios{position: absolute;display: none;flex-direction: column;background-color: black;}
+.Diseño1{position: relative; color: white;text-decoration: none;font-family: Arial, Helvetica, sans-serif;font-size: 20px;border: solid white 2px;border-radius: 10px;padding: 5px;margin: 2px;}
+.Menu:hover .episodios{display: flex;}
+/*Inicio de la infromación general de la serie*/
+.Informacion{background-color: white;position: relative; width: 100%;height: 920px;font-family: Arial, Helvetica, sans-serif;font-size: 17px;}
+.Texto1{justify-content: center;text-align: justify;padding: 15px;display: block;top:2px;}
+.Texto2{box-sizing: content-box;text-align: justify;width: 475px;margin-left: 20px;margin-top: -5px;}
+.Foto1{position: absolute;top:210px;left: 530px;width: auto;height: 78%;}
+.Texto3{position: absolute;box-sizing: content-box;text-align: justify;width: 24%;margin-left: 76%;margin-top: -290px;}
+/*Inicio de Info Efecto */
+.EfectoInfo{background-image: url('Fondo2.jpg');position:relative;width: 100%;height: 920px;background-size: cover;}
+.TituEfec{position:absolute;margin-top:30px;color:black;text-align: center;align-items:center;font-size: 60px;background-color:white;border-color: black;border-radius: 35px;border:4px solid;width: 390px;height: 80px;}
+.Folder{position: absolute;top:20px;width: auto;height: 95%;right: 30px;}
+.Scully{position: absolute;top:120px;width: auto;height: 75%;left: 30px;}
+.Efecto{box-sizing: content-box;width:470px;position: absolute;text-align: justify;right: 118px;top: 140px;font-family: Arial, Helvetica, sans-serif;}
+/*----------------------- Inicio del contenido de CONTACTO-----------------------*/
+.Intro{position: relative;background-image: url("Fondo3.jpg");height: 840px;margin: 0px;margin-top: -5px;}
+.Logo{position: absolute;z-index: 2;left: 40px;width: auto;height:19%;top: 10px;}
+.Intro h1{position: absolute;background-color: white;width: 89%;height: 110px;text-align: center;top: 2px;left: 110px;bottom:0px;z-index: 1;border: solid black;border-radius: 50px;font-size: 39px;align-content: center;padding: 5px;}
+.Parte1{position:absolute;color: white;top: 200px;font-size: 23px;font-family: Arial, Helvetica, sans-serif;box-sizing: border-box;max-width: 87%;height: 100px;left: 7%;background-color: rgba(0, 0, 0, 0.6);display:flex;align-items: center;justify-content: center;text-align: justify;padding: 25px;}
+#Historia{position:absolute;color: rgb(0, 0, 0);top: 320px;width: 92%;height:350px;left: 55px;}
+.Parte2{position:absolute;color: white;top: 715px;font-size: 22px;font-family: Arial, Helvetica, sans-serif;box-sizing: border-box;max-width: 24%;height: 16%;left: 5%;background-color: rgba(0, 0, 0, 0.6);display:flex;align-items: center;justify-content: center;text-align: justify;padding: 18px;}
+.Recuadro{position: absolute;top: 720px;right: 400px;width: 30%;height: 100px;border: solid rgb(0, 0, 0);background-color: rgba(255, 255, 255);text-align: center;display: flex;align-items: center;}
+.Recuadro input{height: 100%;width: 100%;opacity: 0;cursor:pointer;}
+.Boton{position: absolute;top: 722px;right: 60px;width: 200px;height: 100px;background-color: rgb(0, 0, 0);color: white;font-size: 35px;text-align: center;justify-content: center;}
+button:hover{background-color: white;color: black;cursor: pointer;}
+/*----------------------- Inicio del Episodio de CLYDE ------------------------*/
+.Clyde{position: relative;background-image: url(FondoClyde.jpg);width: 100%;height: 900px;background-size: cover;}
+.Font{position:absolute;color: white; top: 24px;left: 36px;}
+.InformacionC{position: absolute;top: 40px;right: 22px;color: white;font-family: Arial, Helvetica, sans-serif;font-size: 16px;width: 52%;height: auto;background-color: rgba(0, 0, 0, 0.8);box-sizing: border-box;padding: 16px;display: flex;align-items: center;text-align: justify;}
+.Imagenes{position: absolute;top: 650px;left: 6%;display: flex;flex-wrap: wrap;column-gap: 120px;}
+.Imagenes Img{width: 24%;height: auto;}
+/*----------------------- Inicio del Episodio de Bad Blood --------------------*/
+.InformacionB{background-image: url(FondoBB.jpg);background-size: cover;position: relative;width: 100%;height: 890px;z-index: 1;margin: 0px;}
+.Titulo{position: absolute;color: white;z-index: 2;font-size: 3rem;top: -20px;left: 20px;}
+.TextoB1{position: absolute;background-color: rgb(0, 0, 0, 0.8);color: white;font-family: Arial, Helvetica, sans-serif;width: 60%;height: auto;border-radius: 20px;right: 20px;display: flex;text-align: justify;align-items: center;padding: 16px;font-size: 1.2rem;top: 20px;}
+.ImagenBB{position: absolute;display: flex;flex-wrap: wrap;column-gap: 60px;left: 3%;top: 610px;}
+.ImagenBB Img{width: 29%;}
+/*------Inicio del episodio de Cigarette Smooking Man----*/
+.InfoCSM{background-image: url(FondoCSM.jpg);background-size: cover;position: relative;width: 100%;height: 900px;z-index: 1;}
+.TituloCSM{position: absolute;color: white;z-index: 2;font-size: 34px;left: 20px;top: 20px;}
+.InformacionCSM{position:absolute;background-color: rgba(0, 0, 0, 0.7);color: white;padding: 8px;text-align: justify;align-items: center;justify-content: center;width: 600px;right: 20px;top: 20px;}
+.ImagCSM{display: flex;flex-wrap: wrap;margin-top: 600px;position: absolute;left: 4%;column-gap: 190px;}
+.ImagCSM img{width: 20%;height: auto;}
+/*------------> Inicio del Diseño Responsivo <------------ */
+@media screen and (max-width: 768px){
+.Portada{height:740px;width: 100%;}
+.Titulo1{max-height: 40%;max-width: 90%;left: 40%;transform: translateX(-40%);top: 230px;}
+.Boton1, .Boton2{font-size: 28px;}
+/*Inicio de Informacion general de Index*/
+.Informacion{font-size: 12px;width: 100%;padding: 2px;margin:0px;left: -2px;}
+.Texto1{padding: 5px;}
+.Texto2{width: 42%;margin-left: 8px;}
+.Foto1{left: 45%;height: 52%;width: 54%;top: 28%;}
+.Texto3{margin-left: 45%;width:54%;top: 100%;}
+/*Inicio EFECTO SCULLY*/
+.EfectoInfo{width: 100%;height:1350px;}
+.TituEfec{font-size: 40px;width: 280px;height: 50px;}
+.Scully{width: 80%;height: 40%;top: 6%;left: 10%;}
+.Folder{height: 54%;width: 99%;right: 2px;top: 45%;}
+.Efecto{font-size: 12px;top:51%; width:47%;right: 9%;}
+/*Inicio de la parte Contacto*/
+.Intro{width: 100%;}
+.Logo{width: auto;height: 12%;left: 10px;}
+.Intro h1{width: 82%;height: 8%;font-size: 22px;left: 78px;align-items: center;padding: 8px;}
+.Parte1{left: 30px;width: 90%;height: 11%;top: 20%;font-size: 18px;padding: 10px;}
+#Historia{width: 95%;left: 2%;top: 35%;}
+.Parte2{left: 10px;top: 650px;width: 22%;height: 21%;font-size: 18px;padding: 10px;}
+.Recuadro{left: 27%;width: 35%;top: 670px;}
+.Boton{right: 2%;top: 670px;width: 30%;}
+/*Inicio de la parte de Clyde*/
+.Clyde{width: 100%;}
+.Font{font-size: 26px;left: 3%;top: 2%;}
+.InformacionC{font-size: 12px;width: 88%;height: auto;padding: 10px;top: 14%;left: 5%;text-align: justify;}
+.Imagenes{display:flex;flex-wrap: wrap;justify-content: center;top: 79%;column-gap: 40px;left: 5%;row-gap: 20px;}
+.Imagenes img{width: 30%;}
+/*Inicio del episodio en Bad Blood*/
+.Titulo{left: 8%;}
+.InformacionB{width: 100%;}
+.TextoB1{font-size: 12px;width: 80%;height: auto;top: 10%;left: 8%;padding: 10px;}
+.ImagenBB{top: 58%;flex-wrap: wrap;gap: 20px;justify-content: center;left: 1%;}
+.ImagenBB Img{width: 35%;}
+/*------Inicio del episodio de Cigarette Smooking Man----*/
+.InfoCSM{width: 100%;height: 910px;background-size: auto;}
+.InformacionCSM{font-family: Arial, Helvetica, sans-serif;font-size: 12px;left: 2%;width: 94%;top: 6%;}
+.TituloCSM{font-size: 30px;}
+.ImagCSM{top: -90px;column-gap: 60px;justify-content: center;position: absolute;}
+.ImagCSM Img{width: 35%;}
+}
+/*-------------- Inicio de la otra parte de responsivo, con la otra resolución --------------*/
+@media screen and (min-width:769px)and (max-width: 1024px) {
+/*----Inicio de Bad Blood ----*/
+.InformacionB{width: 100%;}
+.TextoB1{font-size: 16px;width: 79%;height: auto;top: 9%;left: 9%;padding: 12px;}
+.ImagenBB{flex-wrap: wrap;column-gap: 80px;row-gap: 20px;top: 58%;left: 12%;}
+.ImagenBB Img{width: 35%;}    
+/*----Inicio de la sección de Clyde----*/
+.Clyde{width: 100%;} 
+.InformacionC{width:85%;font-size: 14px;height: 58%;top: 18%;left: 10%;}
+.Imagenes{flex-wrap: wrap;column-gap:50px;row-gap: 20px;top: 520px;}
+.Imagenes Img{width: 28%;}
+/*----Inicio de la sección Contacto----*/
+.Intro{width: 100%;}    
+.Logo{width: auto;height: 15%;left: 2%;}
+.Intro h1{width: 87%;font-size: 30px;}
+#Historia{width: 87%;}
+.Recuadro{width: 200px;left:38%;}
+.Parte2{left: 5%;width: 24%;font-size: 16px;padding: 11px;}
+/*----Inicio del episodio de Cigarette Smooking Man----*/
+.InfoCSM{width: 100%;height: 1000px;background-size: cover;}
+.InformacionCSM{font-size: 14px;width: 85%;top: 7%;left: 9%;}
+.ImagCSM{column-gap: 64px;justify-content: center;top:  -100px;position: absolute;}
+.ImagCSM Img{width: 30%;}  
+.Parte1{width: 87%;left: 6%;}
+}
